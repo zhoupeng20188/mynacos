@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: nacos.dev.cjszyd.cn:80
+        namespace: 667170fa-7398-4de8-a2b3-d64006b4fa22
+      config:
+        file-extension: yaml
+        server-addr: nacos.dev.cjszyd.cn:80
+  application:
+    name: my-nacos
+server:
+  port: 8102
